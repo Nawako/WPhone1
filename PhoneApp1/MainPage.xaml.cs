@@ -7,7 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using
+using System.Windows.Media.Imaging;
 using PhoneApp1.Resources;
 
 namespace PhoneApp1
@@ -28,7 +28,7 @@ namespace PhoneApp1
             Age.Text = p.Age.ToString();
             Mail.Text = p.Mail;
 
-            Photo.Source = new BitmapImage(new Uri(p.Photo, UriKind.Relative))
+            Photo.Source = new BitmapImage(new Uri(p.Photo, UriKind.Relative));
 
             // Exemple de code pour la localisation d'ApplicationBar
             //BuildLocalizedApplicationBar();

@@ -8,10 +8,10 @@ namespace PhoneApp1
 {
     public class Personne
     {
-        protected String Nom {get; set;}
-        protected String Prenom { get; set; }
+        public String Nom {get; set;}
+        public String Prenom { get; set; }
         public int Age { get; set; }
-        protected bool Masculin { get; set; }
+        public bool Masculin { get; set; }
         public String Mail { get; set; }
         public String Photo { get; set; }
 
